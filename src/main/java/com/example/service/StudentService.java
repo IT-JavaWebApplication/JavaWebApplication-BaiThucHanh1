@@ -11,7 +11,6 @@ public class StudentService {
     private long currentId = 1;
 
     public StudentService() {
-        // Dữ liệu mẫu
         save(new Student(null, "SV0001", "Nguyen Van A", "a@gmail.com", "CNTT", 8.5));
         save(new Student(null, "SV0002", "Tran Thi B", "b@gmail.com", "Kinh tế", 7.0));
     }
